@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Jogo da Memória</title>
+</head>
+
+<body>
+    <audio id="audio">
+        <source src="./audio/natal.mp3" type="audio/mp3">
+      </audio>
+      <img id="play" class="botao-play" src="./imagens/sem-som.png" >
+      <img id="pause" class=" botao-pause" src="./imagens/caixas-de-som.png">
+    
+    <div id="gameBoard">
+      
+    </div>
+
+
+
+    <div id="gameOver">
+        <div>
+            Parabéns, você completou o jogo!
+        </div>
+        <button id="restart" onclick="restart()"> Jogue novamente </button>
+    </div>
+     <script src="./scripts/game.js"></script>
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
