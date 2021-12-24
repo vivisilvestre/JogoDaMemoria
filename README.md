@@ -1,7 +1,7 @@
-# JogoDaMemoria
+# Jogo da  Memória
 Projeto Jogo da Memória desenvolvido no curso "Desenvolvimento Web Full Stack - Programador Br".
 
-## O que é?
+## O que é
 É um jogo de cartas , usado para testar a memória dos jogadores .
 
 ## Como jogar
@@ -14,5 +14,11 @@ CSS,
 Jquery.
 
 
-## Imagens do projeto
+## Imagens  do  Projeto
+
+ <img src="./imagens/gif tela inicio jogo.gif">
+ 
+ 
+ 
+  <img src="./imagens/gif tela cartas.gif">
 
